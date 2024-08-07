@@ -2,7 +2,7 @@
 layout: post
 title:  "Reentrancy and Thread-Safety"
 date:   2024-08-05 00:00:00 +0000
-categories: Thread 
+categories: Qt 
 ---
 - [可重入和线程安全](#可重入和线程安全)
   - [函数维度:](#函数维度)
@@ -151,10 +151,15 @@ private:
 
 常见的Gui相关类是非可重入、线程不安全的, 未标准可重入的类不能再夸线程场景中使用, 标注了可重入也需要注意线程安全问题.
 
+**note:** QWidget非可重入、线程不安全, 只能在主线程使用.
+
 ![Image](/assets/images/ReentrancyAndThread-Safety/image.png)
 
-<!-- ![alt text](image.png)
-![alt text](image-1.png) -->
+**note:** QString可重入、线程不安全, 跨线程使用注意data ricing.
+![Image](/assets/images/ReentrancyAndThread-Safety/image2.png)
+
+**note:** QFuture可重入、线程安全.
+![Image](/assets/images/ReentrancyAndThread-Safety/image1.png)
 
 ## 参考资料:
 
