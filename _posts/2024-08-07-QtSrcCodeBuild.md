@@ -3,6 +3,8 @@ layout: post
 title:  "Qt SrcCode Build"
 date:   2024-08-07 00:00:00 +0000
 categories: Qt
+excerpt_image: /assets/images/QtSrcCodeBuild/image.png
+tags: [Qt]
 ---
 - [VS2019编译qt源码](#vs2019编译qt源码)
   - [🙆🏻‍♂️️ 动机](#️️-动机)
