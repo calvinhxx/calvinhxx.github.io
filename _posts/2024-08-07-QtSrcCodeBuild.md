@@ -12,11 +12,13 @@ tags: [Qt]
   - [🏗️️ build](#️️-build)
   - [☝🏻 使用](#-使用)
 
-# VS2019编译qt源码 
+## VS2019编译qt源码 
 
-## 🙆🏻‍♂️️ 动机
+---
 
-qt5.15早期开源版本存在部分windows设备渲染卡顿、崩溃问题需要升级qt版本解决。然而qt6涉及到GPU渲染部分不支持win7和32位所以需要升级qt5.15后期fixed版本。
+### 🙆🏻‍♂️️ 动机
+
+qt5.15早期开源版本存在部分windows设备渲染卡顿、崩溃问题, 需要升级qt版本解决。然而qt6涉及到GPU渲染部分不支持win7和32位所以需要升级qt5.15后期fixed版本。
 
 **note:** 从qt5.15后opensrc版本不再提供offcial binary, qt官方online installer只能安装qt6.7.1和qt5.15.2之类的早期小版本官方二进制。
 
@@ -27,7 +29,7 @@ qt5.15早期开源版本存在部分windows设备渲染卡顿、崩溃问题需�
 
 ---
 
-## 🏛️️ 准备
+### 🏛️️ 准备
 
 1. 安装好vs2019确保相关组件正确安装
 
@@ -39,7 +41,7 @@ qt5.15早期开源版本存在部分windows设备渲染卡顿、崩溃问题需�
 
 4. 查看qt官方[build on windows doc](https://doc.qt.io/qt-5/windows-building.html)
 
-## 🏗️️ build
+### 🏗️️ build
 
 1. 根据想要编译的版本32/64 打开对应的终端(一定得确认) 32位打开x86 64位打开x64, 编译过程中可以查看任务管理器cl.exe是否匹配32/64
 
@@ -72,7 +74,7 @@ qt5.15早期开源版本存在部分windows设备渲染卡顿、崩溃问题需�
 
     ![alt text](/assets/images/QtSrcCodeBuild/image-4.png)
 
-## ☝🏻 使用
+### ☝🏻 使用
 
 1. `vs2019使用` 
 
