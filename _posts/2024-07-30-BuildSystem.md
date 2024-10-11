@@ -4,6 +4,7 @@ title:  "BuildSystem Intro"
 date:   2024-07-30 00:00:00 +0000
 excerpt_image: /assets/images/BuildSystem/企业微信截图_1728547552582.png
 categories: BuildSystem
+tags: [BuildSystem]
 ---
 
 ## 构建系统
@@ -30,7 +31,7 @@ categories: BuildSystem
 - managing testing
 管理测试
 
-接下来我们来聊一聊也能C++技术栈比较成熟的构建系统CMake
+接下来我们来聊一聊 C++技术栈比较成熟的构建系统CMake
 
 ## CMake
 
