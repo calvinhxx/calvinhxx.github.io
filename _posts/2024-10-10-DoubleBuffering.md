@@ -68,4 +68,7 @@ onPaint事件中的绘制就是填充前缓冲, requestPaint操作就是swap操�
 比如:
 listview生成model的操作在工作线程执行, emit更新数据的操作在主线程.
 
+在[qt的性能优化文档](https://doc.qt.io/qt-6/qtquick-performance.html)其实有类似的说明,底层逻辑和双缓冲一致
+
+![alt text](/assets/images/DoubleBuffering/image.png)
 
